@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * First the pivot element is at a[end]. Then pivot moves to a place such that elements to its left
  * are < than pivot. Elements to the right are > pivot. Then the left and right portions are sorted
- * recursively until whole array is sorted. QS alogorithm is "in place" sorting i.e. no additional memory is needed
+ * recursively until whole array is sorted. QS alogorithm is "in place" sorting hli.e. no additional memory is needed
  * like merge sort to create temporary arrays. Avg. Perf. is O(n log b2 n). Worst case perf. O(n ^ 2)
  * 
  * @author chandrashekar

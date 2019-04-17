@@ -6,7 +6,6 @@ public class BubbleSort {
 	public static void main(String[] args) {
 		final int [] numbers = {25, 15, 10, 7, 23, 8, 45, 11};
 		new BubbleSort().sort(numbers);
-		//changed
 	}
 	
 	public void sort(int[] numbers) {

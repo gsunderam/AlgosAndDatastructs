@@ -73,9 +73,7 @@ public class DoublyLinkedList {
 		//Terminating condition for recursion
 		if (head.next == null) {
 			first = head;
-			head.next = prev;
-			head.prev = null;
-			return prev;
+			return head;
 		}
 		
 		LinkNode<Integer> node = reverse(head.next, head);

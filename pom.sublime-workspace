@@ -56,10 +56,27 @@
 	"buffers":
 	[
 		{
-			"file": "/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/algorithmsAndDataS.txt",
+			"file": ".project",
 			"settings":
 			{
-				"buffer_size": 4729,
+				"buffer_size": 533,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/main/java/com/gs/home/datastructures/TrieNode.java",
+			"settings":
+			{
+				"buffer_size": 376,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/main/java/com/gs/home/datastructures/TrieDemo.java",
+			"settings":
+			{
+				"buffer_size": 4208,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -109,15 +126,101 @@
 	},
 	"expanded_folders":
 	[
-		"/C/technical/linkedln/Ex_Files_Java_EE_Design_Patterns_Architecture"
+		"/C/technical/projects/spring-boot",
+		"/C/technical/projects/spring-boot/demo",
+		"/C/technical/projects/spring-boot/demo/src",
+		"/C/technical/projects/spring-boot/demo/src/main",
+		"/C/technical/projects/spring-boot/demo/src/main/java",
+		"/C/technical/projects/spring-boot/demo/src/main/java/com",
+		"/C/technical/projects/spring-boot/demo/src/main/java/com/gs",
+		"/C/technical/projects/spring-boot/demo/src/main/java/com/gs/home",
+		"/C/technical/projects/spring-boot/demo/src/main/java/com/gs/home/datastructures"
 	],
 	"file_history":
 	[
-		"/C/technical/linkedln/EffectiveRestfulAPI/restClientPractices.txt",
-		"/C/technical/linkedln/EffectiveRestfulAPI/restfulAPIDesign.txt",
-		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter3/InsertionSorter.java",
-		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter6/TriangleNumbers.java",
+		"/C/technical/linkedln/Ex_Files_OAuth_OIDC/OAuthNotes",
+		"/C/technical/projects/vertx/target/MANIFEST.MF",
+		"/C/technical/linkedln/Ex_Files_LReact_js_2016/Exercise Files/Ch02/02_01/finish/index.html",
+		"/C/technical/linkedln/Ex_Files_OAuth_OIDC/Exercise Files/Ch04/04_02/._.DS_Store",
+		"/C/technical/linkedln/Ex_Files_OAuth_OIDC/Exercise Files/Ch07/07_01/start/src/Entities/AccessTokenEntity.php",
+		"/C/technical/linkedln/Ex_Files_OAuth_OIDC/Exercise Files/Ch04/04_02/.DS_Store",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/MicrosJava",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 4/booking-service/src/test/java/com/packtpub/mmj/booking/resources/BookingControllerIntegrationTests.java",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 3/src/main/java/com/packtpub/mmj/mcrsrvc/domain/model/Entity.java",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 3/src/main/java/com/packtpub/mmj/mcrsrvc/domain/model/BaseService.java",
+		"/C/technical/projects/spring-boot/demo/src/main/java/com/gs/home/springboot/SampleController.java",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 4/eureka-service/src/main/java/com/packtpub/mmj/eureka/service/App.java",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 3/src/main/java/com/packtpub/mmj/mcrsrvc/domain/model/Repository.java",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 3/src/main/java/com/packtpub/mmj/mcrsrvc/domain/model/RestaurantService.java",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 3/src/main/java/com/packtpub/mmj/mcrsrvc/domain/model/RestaurantRepository.java",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 2/src/main/java/com/packtpub/mmj/restsample/resources/CalculationController.java",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 2/nbactions.xml",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 2/nb-configuration.xml",
+		"/C/technical/linkedln/Ex_Files_Mastering_Microservices_Java/Exercise Files/Chapter 2/pom.xml",
+		"/C/technical/linkedln/Microservices/micros.txt",
+		"/C/technical/linkedln/micros.txt",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/ReactiveJavaNotes",
 		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter6/TowerOfHanoi.java",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/gitTrainingNotes.txt",
+		"/C/Users/chandrashekar/.bash_profile",
+		"/C/Users/chandrashekar/.gitignore_global",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/COMMIT_EDITMSG",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/index",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/HEAD",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/refs/heads/master",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/description",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/hooks/pre-applypatch.sample",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/objects/0d/6faf2b1042b516bd55fe1d86c3134bcd2c30b2",
+		"/C/Users/chandrashekar/.gitconfig",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/logs/HEAD",
+		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/.git/logs/refs/heads/master",
+		"/C/technical/linkedln/Cloud/AWS_Training_notes.txt",
+		"/C/technical/linkedln/SpringBootMicroService/SpringBoot.txt",
+		"/C/technical/linkedln/Cloud/CloudComputingBasics.txt",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter10/HashTable.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_07/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/cmd/CmdLineUI.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_07/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/actors/Poller.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_07/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/actors/Printer.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_07/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/actors/PriceRequestor.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/akka-quickstart-java/build.gradle",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_05/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/actors/Poller.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/fullapp-linkedln-akka/build.gradle",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_03/end/akka-quickstart-java/src/test/java/com/lightbend/akka/sample/AkkaQuickstartTest.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/06_01/begin/akka-quickstart-java/src/test/java/com/lightbend/akka/sample/AkkaQuickstartTest.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_05/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/cmd/CmdLineUI.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_07/end/fullapp-akka-spring-master/src/test/java/com/linkedin/fullappakkaspring/FullappAkkaSpringApplicationTests.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_06/end/fullapp-akka-spring-master/src/test/java/com/linkedin/fullappakkaspring/FullappAkkaSpringApplicationTests.java",
+		"/C/technical/linkedln/EffectiveRestfulAPI/restfulAPIDesign.txt",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_04/end/fullapp-akka-spring-master/build.gradle",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_04/end/fullapp-akka-spring-master/.gitignore",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_04/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/cmd/CmdLineUI.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_04/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/service/CoinbaseServiceImpl.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/05_04/end/fullapp-akka-spring-master/src/main/java/com/linkedin/fullappakkaspring/config/ApiConfig.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/04_08/end/fullapp-linkedin-rxjava/src/main/java/com/linkedin/fullapplinkedinrxjava/cmd/CmdLineUi.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/04_04/end/rxjava-linkedin-learning/src/main/java/com/linkedin/Main.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/04_05/end/rxjava-linkedin-learning/src/main/java/com/linkedin/Main.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/04_08/end/fullapp-linkedin-rxjava/src/main/java/com/linkedin/fullapplinkedinrxjava/Observer/ConsolePrintObserver.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/04_07/end/fullapp-linkedin-rxjava/src/main/java/com/linkedin/fullapplinkedinrxjava/config/ApiConfig.java",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/Exercise Files/04_05/end/rxjava-linkedin-learning/src/main/java/com/linkedin/ConsolePrintObserver.java",
+		"/C/technical/linkedln/Ex_Files_Java_EE_Design_Patterns_Architecture/EnterprisePatternsNotes",
+		"/C/technical/linkedln/Ex_Files_Reactive_Prog_Java_8/rxjava-linkedln/build.gradle",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/algorithmsAndDataS.txt",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter2/AuthenticationService.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter5/Queue.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter4/LinkedListDemo.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter9/AscendingHeap.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter9/Heap.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter8/QuickSorter.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter7/TreeNode.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter5/Stack.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter6/TriangleNumbers.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter8/ShellSorter.java",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter8/CountingSorter.java",
+		"/C/technical/projects/spring-boot/demo/.gitignore",
+		"/C/technical/projects/spring-boot/demo/.springBeans",
+		"/C/technical/projects/spring-boot/demo/mvnw.cmd",
+		"/C/technical/linkedln/EffectiveRestfulAPI/restClientPractices.txt",
+		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter3/InsertionSorter.java",
 		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter6/MergeSorter.java",
 		"/C/technical/linkedln/WebInterfaceReactJS/reactinterface/process/js/AddAppointment.js",
 		"/C/technical/linkedln/WebInterfaceReactJS/reactinterface/process/js/app.js",
@@ -125,9 +228,7 @@
 		"/C/technical/javaj2ee/SystemDesignTips.txt",
 		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/Exercise Files/src/chapter3/Circle.java",
 		"/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/algorithmsAndDataS",
-		"/C/technical/linkedln/SpringBootMicroService/SpringBoot.txt",
 		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 1/Finished/explorecali/_DS_Store",
-		"/C/technical/linkedln/Ex_Files_Java_EE_Design_Patterns_Architecture/EnterprisePatternsNotes",
 		"/C/technical/linkedln/WebInterfaceReactJS/reactinterface/process/js/AptList.js",
 		"/C/technical/linkedln/WebInterfaceReactJS/reactinterface/builds/app/index.html",
 		"/C/technical/linkedln/WebInterfaceReactJS/reactinterface/builds/app/js/app.js",
@@ -146,7 +247,6 @@
 		"/C/technical/linkedln/Ex_Files_Java_EE_Design_Patterns_Architecture/Exercise Files/02_03_end/src/main/java/com/readlearncode/PoolManager.java",
 		"/C/technical/linkedln/Ex_Files_Java_EE_Design_Patterns_Architecture/Exercise Files/02_03_end/src/main/java/com/readlearncode/UsePoolManager.java",
 		"/C/technical/javaj2ee/RestVsSoap.txt",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/gitTrainingNotes.txt",
 		"/C/technical/projects/spring-rest-transaction/TransRest/src/main/java/com/pawelgorny/transrest/repository/NoTransactionRepositoryFactoryBean.java",
 		"/C/technical/linkedln/Ex_Files_SQL_Server_Trig/Ex_Files_SQL_Server_Trig/Exercise Files/Ch04/04_03.txt",
 		"/C/technical/linkedln/Ex_Files_SQL_Server_Trig/Ex_Files_SQL_Server_Trig/Exercise Files/Ch04/04_02.txt",
@@ -165,82 +265,7 @@
 		"/C/technical/linkedln/Ex_Files_Docker_TheBasics/dockernotes.txt",
 		"/C/technical/projects/spring-boot/demo/src/main/java/com/gs/home/webservices/WebServiceClient.java",
 		"/C/technical/projects/javarelatedexamples/src/com/sg/dp/interview/StringManipulations.java",
-		"/C/technical/projects/javarelatedexamples/src/com/sg/dp/interview/ArrayPuzzlers.java",
-		"/C/technical/projects/spring-boot/demo/src/main/resources/application.properties",
-		"/C/technical/linkedln/Ex_Files_Docker_TheBasics/Exercise Files/reformat.sh",
-		"/C/technical/linkedln/Ex_Files_Docker_TheBasics/examples/Dockerfile",
-		"/C/technical/linkedln/Ex_Files_Docker_TheBasics/Exercise Files/Dockerfile-2.txt",
-		"/C/technical/linkedln/Ex_Files_Docker_TheBasics/Exercise Files/Dockerfile",
-		"/C/Users/chandrashekar/Desktop/temp.txt",
-		"/C/technical/linkedln/RealWorld_XML/exercise_files/04_designing/TeaCloud/Scripts/products.js",
-		"/C/technical/linkedln/RealWorld_XML/exercise_files/05_algorithms/BreadthFirst_finished.htm",
-		"/C/technical/linkedln/RealWorld_XML/exercise_files/05_algorithms/Depth_finished.htm",
-		"/C/technical/linkedln/RealWorld_XML/exercise_files/05_algorithms/hasSibling_finished.htm",
-		"/C/technical/linkedln/RealWorld_XML/exercise_files/05_algorithms/getElementsByAttrVal_finished.htm",
-		"/C/technical/linkedln/RealWorld_XML/exercise_files/03_xmljavascript/businesscard.xml",
-		"/C/technical/linkedln/RealWorld_XML/exercise_files/02_formats/sitemap.xml",
-		"/C/technical/linkedln/RealWorld_XML/exercise_files/02_formats/sitemap.xsd",
-		"/C/technical/linkedln/Cloud/AWS_Training_notes.txt",
-		"/C/technical/linkedln/Ex_Files_AWS_EssT/Ex_Files_AWS_EssT/Exercise Files/user-data.txt",
-		"/C/Users/chandrashekar/Desktop/test.css",
-		"/C/technical/linkedln/Ex_Files_AWS_EssT/Ex_Files_AWS_EssT/Exercise Files/composer.json",
-		"/C/technical/linkedln/Ex_Files_AWS_EssT/Ex_Files_AWS_EssT/Exercise Files/createbucket.php",
-		"/C/technical/linkedln/Ex_Files_AWS_EssT/Ex_Files_AWS_EssT/Exercise Files/heartbeat.php",
-		"/C/technical/linkedln/Ex_Files_AWS_EssT/Ex_Files_AWS_EssT/Exercise Files/instance.php",
-		"/C/technical/linkedln/Ex_Files_AWS_EssT/Ex_Files_AWS_EssT/sun-2017.pem",
-		"/C/Users/chandrashekar/Downloads/sun-2017.pem",
-		"/C/technical/linkedln/Cloud/CloudComputingBasics.txt",
-		"/C/technical/projects/javascript/src/hoisting.js",
-		"/C/technical/projects/javascript/src/closure.js",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 4/Finished/explorecali/src/main/java/com/example/ec/web/TourRatingController.java",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 4/Finished/explorecali/src/main/java/com/example/ec/web/RatingDto.java",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 2/Finished/explorecali/src/main/java/com/example/ec/service/TourPackageService.java",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 2/Finished/explorecali/src/main/java/com/example/ec/service/TourService.java",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 3/Finished/explorecali/src/main/java/com/example/ec/ExplorecaliApplication.java",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 2/Finished/explorecali/src/main/java/com/example/ec/domain/Tour.java",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 2/Finished/explorecali/src/main/java/com/example/ec/repo/TourPackageRepository.java",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 3/Finished/explorecali/src/main/java/com/example/ec/service/TourPackageService.java",
-		"/C/technical/linkedln/SpringBootMicroService/exercisefiles/Chapter 2/Finished/explorecali/src/main/java/com/example/ec/repo/TourRepository.java",
-		"/C/technical/projects/javarelatedexamples/src/com/sg/dp/corejava/ThreadGroupDemo.java",
-		"/C/Users/chandrashekar/Downloads/wa_z93M+",
-		"/C/technical/projects/spring-boot/demo/pom.xml",
-		"/C/technical/linkedln/SpringBootMicroService/explorecali/pom.xml",
-		"/C/technical/projects/spring-boot/demo/.gitignore",
-		"/C/technical/projects/spring-boot/demo/src/main/java/com/gs/home/corejava/ThreadGroupDemo.java",
-		"/C/technical/projects/spring-boot/demo/.settings/org.eclipse.wst.common.project.facet.core.xml",
-		"/C/technical/projects/spring-boot/demo/.settings/org.eclipse.core.resources.prefs",
-		"/C/technical/projects/spring-boot/demo/.settings/org.eclipse.jdt.core.prefs",
-		"/C/technical/projects/spring-boot/demo/.settings/org.eclipse.m2e.core.prefs",
-		"/C/technical/projects/spring-boot/demo/.project",
-		"/C/technical/projects/spring-boot/demo/.classpath",
-		"/C/projects/AsyncServletExample/src/com/journaldev/servlet/LongRunningServlet.java",
-		"/C/projects/AsyncServletExample/WebContent/WEB-INF/web.xml",
-		"/C/projects/AsyncServletExample/src/com/journaldev/servlet/async/AppContextListener.java",
-		"/C/projects/javarelatedexamples/src/com/sg/dp/log/Logger.java",
-		"/C/projects/AsyncServletExample/WebContent/META-INF/MANIFEST.MF",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/index.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/tours/tour_detail_backpack_cal.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/tours.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/contact.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/explorers.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/.gitignore",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/mission.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/tempfile3.txt",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/resources.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/assets/pdfs/.gitkeep",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/tempfile.txt",
-		"/C/Users/chandrashekar/.gitconfig",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/tempfile",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/junk1.txt",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/junk2.txt",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/tours/tour_detail_bigsur.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/resources/faq.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/support.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_02/explore_california/tours/tour_detail_backpack.html",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/delete2.txt",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/testthird.txt",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/git-test-project/primaryfile.txt",
-		"/C/technical/linkedln/Ex_Files_GIT_EssT/Chapter 06/06_01/explore_california/contact.html"
+		"/C/technical/projects/javarelatedexamples/src/com/sg/dp/interview/ArrayPuzzlers.java"
 	],
 	"find":
 	{
@@ -248,7 +273,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 104.0,
 		"where_history":
 		[
 			"C:\\technical\\linkedln\\Ex_Files_GIT_EssT\\Chapter 06\\06_02\\explore_california",
@@ -260,6 +285,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"git -am",
 			"handleOrder",
 			"handleDelete",
 			"push",
@@ -310,29 +336,86 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/technical/linkedln/Ex_Files_Intro_DataStructures_Algorithms_Java/algorithmsAndDataS.txt",
+					"file": ".project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4729,
+						"buffer_size": 533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4135,
-								4135
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main/java/com/gs/home/datastructures/TrieNode.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/main/java/com/gs/home/datastructures/TrieDemo.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2709,
+								2709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -421,7 +504,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 88.0,
+	"side_bar_width": 462.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
