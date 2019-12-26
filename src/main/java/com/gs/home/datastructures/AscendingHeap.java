@@ -26,7 +26,7 @@ public class AscendingHeap {
 	}
 	
 	private void fixDown(int index, int upto) {
-		if (upto < -1) upto = currentPosition;
+		if (upto < 0) upto = currentPosition;
 		
 		while (index <= upto) {
 			int leftChild = 2 * index + 1;
@@ -52,13 +52,12 @@ public class AscendingHeap {
 	}
 	
 	private void fixUp(int index) {
-		int i = (index-1)/2; //parent index
-		while (i >= 0 && heapData[i] > heapData[index]) {
-			int tmp = heapData[i];
-			heapData[i] = heapData[index];
-			heapData[index] = tmp;
-			index = i;
-			i = (index-1)/2;
+		int pi = (index-1)/2; //parent index
+
+		while (pi >= 0 && heapData[pi] > heapData[index]) {
+			swap(pi, index);
+			index = pi;
+			pi = (index-1)/2;
 		}
 	}
 	
@@ -88,8 +87,8 @@ public class AscendingHeap {
 		heap.insert(2);
 		heap.insert(21);
 		System.out.println(Arrays.deepToString(heap.heapData));
-		heap.heapSort();
-//		System.out.println(heap.deleteRoot());
+//		heap.heapSort();
+		System.out.println(heap.deleteRoot());
 		System.out.println(Arrays.deepToString(heap.heapData));
 	}
 
