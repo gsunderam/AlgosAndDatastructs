@@ -9,6 +9,10 @@ import java.util.*;
  * when the nodes meet, merge the paths to get the SHORTEST path between src and dest.
  //TODO: Validations of source and dest, check for cycles and a few other use cases
  * Happy path is ONLY tested.
+ *
+ * Time complexity = O(K pow D/2). K is the no of friend nodes per parent node.
+ * D = No of levels of search.
+ * So this is faster than a traditional BFS by a factor of K pow D/2 and is highly scalable
  */
 public class GraphBBFS {
     /** Given graph of people */
@@ -31,18 +35,18 @@ public class GraphBBFS {
 
         while (!sourceData.getToVisit().isEmpty() && !destData.getToVisit().isEmpty()) {
             /** search from source */
-            Person personFromSrc = searchLevels(sourceData, destData);
-            if (personFromSrc != null) {
+            Person person = searchLevels(sourceData, destData);
+            if (person != null) {
                 Logger.stdout("Search END! Merging paths");
-                mergePaths(personFromSrc, sourceData.getVisited(), destData.getVisited());
+                mergePaths(person, sourceData.getVisited(), destData.getVisited());
                 return;
             }
 
             /** search from dest */
-            Person personFromDest = searchLevels(destData, sourceData);
-            if (personFromDest != null) {
+            person = searchLevels(destData, sourceData);
+            if (person != null) {
                 Logger.stdout("Search ENDS Merging");
-                mergePaths(personFromDest, sourceData.getVisited(), destData.getVisited());
+                mergePaths(person, sourceData.getVisited(), destData.getVisited());
                 return;
             }
         }
@@ -57,8 +61,7 @@ public class GraphBBFS {
     public Person searchLevels(BFSData sourceData, BFSData destData) {
         int numNodes = sourceData.getToVisit().size();
         for (int i = 0; i < numNodes; i++) {
-            PathNode pathNode = sourceData.getToVisit().poll();
-            Person person = pathNode.getNext();
+            Person person = sourceData.getToVisit().poll();
             int currentPid = person.getId();
 
             if (destData.getVisited().containsKey(currentPid)) return person;
@@ -66,8 +69,7 @@ public class GraphBBFS {
             List<Person> friends = person.getFriends();
             for (Person friend: friends) {
                 if (!sourceData.getVisited().containsKey(friend.getId())) {
-                    PathNode node = new PathNode(currentPid, friend);
-                    sourceData.getToVisit().offer(node);
+                    sourceData.getToVisit().offer(friend);
                     sourceData.getVisited().put(friend.getId(), person);
                 }
             }
@@ -93,6 +95,6 @@ public class GraphBBFS {
     public static void main(String[] args) {
         GraphBBFS bibfs = new GraphBBFS();
 //        bibfs.printGraph();
-        bibfs.searchBiBFS(1, 9);
+        bibfs.searchBiBFS(1, 8);
     }
 }

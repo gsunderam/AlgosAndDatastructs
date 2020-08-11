@@ -7,7 +7,7 @@ import java.util.*;
  */
 public class BFSData {
     /** Queue to hold the nodes to be visited*/
-    private final Queue<PathNode> toVisit = new LinkedList<>();
+    private final Queue<Person> toVisit = new LinkedList<>();
 
     /** To keep track of the already visited path */
     /** Key: current friend, value = prior person */
@@ -15,12 +15,11 @@ public class BFSData {
     public BFSData() {}
 
     public BFSData(Person root) {
-        PathNode rootNode = new PathNode(0, root);
-        this.toVisit.offer(rootNode);
+        this.toVisit.offer(root);
         this.visited.put(root.getId(), null);
     }
 
-    public Queue<PathNode> getToVisit() {
+    public Queue<Person> getToVisit() {
         return toVisit;
     }
 
