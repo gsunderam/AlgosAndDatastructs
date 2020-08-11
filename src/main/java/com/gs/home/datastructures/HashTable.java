@@ -87,12 +87,14 @@ public class HashTable {
 		ht.put("5", 50);
 		ht.put("23", 23);
 		ht.put(1, 41);
-//		stdout("---------------------");
-//		stdout("key 2 exists: " + ht.keyExists("2"));
-//		stdout("Key 4 exists: " + ht.keyExists("4"));
-//		stdout(ht.get(2));
-//		stdout(ht.get("4"));
-//		stdout(ht.get(4));
-//		stdout(ht.get(1));
+		ht.put(2, "24");
+		stdout("---------------------");
+		stdout("key 2 exists: " + ht.keyExists("2"));
+		stdout("Key 4 exists: " + ht.keyExists("4"));
+		stdout(ht.get(2));
+		stdout(ht.get("4"));
+		stdout(ht.get(4));
+		stdout(ht.get(1));
+		stdout(ht.get(2));
 	}
 }

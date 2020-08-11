@@ -1,5 +1,7 @@
 package com.gs.home.datastructures.graph;
 
+import java.util.Map;
+
 import static com.gs.home.log.Logger.print;
 import static com.gs.home.log.Logger.stdout;
 
@@ -21,12 +23,13 @@ public class GraphClient {
         graph.addEdge("E", "F", 1);
         graph.addEdge("E", "C", 1);
 
-//        Map<Vertex, Integer> vertices = graph.getVertices("A");
-//        stdout("Vertices for A are -> " + vertices);
+        Map<Vertex, Integer> vertices = graph.getVertices("A");
+        stdout("Vertices for A are -> " + vertices);
         stdout(graph.isVertexOfEachOther("A", "F"));
         GraphOps.printGraph(graph);
         print("\n");
-        GraphOps.traverseDFS("A", graph);
+//        GraphOps.traverseDFS("A", graph);
+        GraphOps.noStackDFS("A", graph);
         GraphOps.traverseBFS("A", graph);
         GraphOps.printPath(graph,"D", "E", new StringBuilder(""));
         stdout("AB: " + graph.getEdgeLength("A", "B"));

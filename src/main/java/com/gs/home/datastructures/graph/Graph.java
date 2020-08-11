@@ -2,6 +2,13 @@ package com.gs.home.datastructures.graph;
 
 import java.util.*;
 
+/**
+ * Modeled as a Map of (vertex as KEY -> Map of (Adj vertices , weight) as VALUES)
+ * A -> B, 2
+ *      C, 3
+ * B -> A, 2
+ *      D, 3 etc.
+ */
 public class Graph {
     Map<Vertex, Map<Vertex, Integer>> adjacentVertices = new LinkedHashMap<>();
 

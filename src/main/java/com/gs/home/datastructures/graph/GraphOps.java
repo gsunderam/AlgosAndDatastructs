@@ -52,6 +52,24 @@ public class GraphOps {
     }
 
     /**
+     * Depth First without stack
+     * @param root
+     */
+    public static void noStackDFS(String root, Graph graph) {
+        Vertex rootVertex = graph.getVertex(root);
+        rootVertex.visited = true;
+        printTab(rootVertex.name);
+
+        Set<Vertex> vertices = graph.adjacentVertices.get(rootVertex).keySet();
+
+        for (Vertex vertex : vertices) {
+            if (!vertex.visited) noStackDFS(vertex.name, graph);
+        }
+
+        print("\n");
+    }
+
+    /**
      * Queues are used in below algorithm for FIFO processing.
      * Breadth First
      * @param root
