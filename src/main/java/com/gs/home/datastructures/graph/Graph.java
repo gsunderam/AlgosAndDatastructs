@@ -23,6 +23,13 @@ public class Graph {
         adjacentVertices.get(destination).put(source, weight);
     }
 
+    /** Added to accommodate a reqt in Cracking the interview book for build order */
+    public void addEdge(String src, String dest) {
+        Vertex source = Flyweight.getVertex(src);
+        Vertex destination = Flyweight.getVertex(dest);
+        adjacentVertices.get(source).put(destination, 0);
+    }
+
     public Map<Vertex, Integer> getVertices(String name) {
         return adjacentVertices.get(Flyweight.getVertex(name));
     }
@@ -41,5 +48,9 @@ public class Graph {
                 filter(entry -> entry.getKey().name.equals(destination)).
                 map(entry -> entry.getValue()).findAny();
         return weight.get();
+    }
+
+    public Map<Vertex, Map<Vertex, Integer>> getAdjacentVertices() {
+        return adjacentVertices;
     }
 }
