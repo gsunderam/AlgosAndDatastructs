@@ -127,11 +127,9 @@ public class SinglyLinkedList {
 	
 	
 	private static Node<Byte> recursiveReverse(Node<Byte> head, Node<Byte> prev) {
-		if (head == null) return null;
-		
-		if (head.next == null) {
-			first = head;
-			return head;
+		if (head == null) {
+			first = prev;
+			return prev;
 		}
 		
 		Node<Byte> node = recursiveReverse(head.next, head);

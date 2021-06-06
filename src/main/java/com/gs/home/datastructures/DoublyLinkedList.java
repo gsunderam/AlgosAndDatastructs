@@ -11,10 +11,10 @@ public class DoublyLinkedList {
 		LinkNode<Integer> head = new LinkNode<>(33, null);
 		createLinkedList(head);
 		iterateLinkedList(head);
-		insertAfter(45, 46, head);
-		iterateLinkedList(head);
+//		insertAfter(45, 46, head);
+//		iterateLinkedList(head);
 		
-		insertAfter(11, 46, head); //not found
+//		insertAfter(11, 46, head); //not found
 		reverse(head, null);
 		iterateLinkedList(first);
 	}
@@ -68,12 +68,10 @@ public class DoublyLinkedList {
 	 * @return
 	 */
 	private static LinkNode<Integer> reverse(LinkNode<Integer> head, LinkNode<Integer> prev) {
-		if (head == null) return null;
-		
 		//Terminating condition for recursion
-		if (head.next == null) {
-			first = head;
-			return head;
+		if (head == null) {
+			first = prev;
+			return prev;
 		}
 		
 		LinkNode<Integer> node = reverse(head.next, head);
