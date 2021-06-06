@@ -11,10 +11,10 @@ public class DoublyLinkedList {
 		LinkNode<Integer> head = new LinkNode<>(33, null);
 		createLinkedList(head);
 		iterateLinkedList(head);
-//		insertAfter(45, 46, head);
-//		iterateLinkedList(head);
-		
-//		insertAfter(11, 46, head); //not found
+		insertAfter(45, 46, head);
+		iterateLinkedList(head);
+
+		insertAfter(11, 46, head); //not found
 		reverse(head, null);
 		iterateLinkedList(first);
 	}
